@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#js-error-msg {
+    padding: 30px;
+    color: red;
+}
