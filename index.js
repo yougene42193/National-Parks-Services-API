@@ -13,7 +13,7 @@ function formatURL(params) {
 function displayResults(responseJson) {
   console.log(responseJson);
   $('#results-list').empty();
-  for (let i = 0; i < responseJson.data.length; i++) {
+  for (let i = 1; i < responseJson.data.length; i++) {
     $('#results-list').append(
       `<div class="search-results">
           <h3><a href="${responseJson.data[i].url}">${responseJson.data[i].fullName}</a></h3>
